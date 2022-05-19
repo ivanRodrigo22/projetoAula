@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.grocecycrud'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.4'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.9.1'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.9.1'
+    implementation group: 'io.cucumber', name: 'cucumber-core', version: '6.9.1'
+    implementation group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.4'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+}
+
